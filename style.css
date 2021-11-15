@@ -33,6 +33,7 @@ section {
     -ms-transition: all .3s linear;
     -o-transition: all .3s linear;
     box-shadow: 0 5px 15px rgba(0, 0, 0, .1);
+    padding: 1rem 1.5rem;
 }
 
 .grocery-form:hover {
@@ -46,6 +47,7 @@ section {
     align-items: center;
     text-align: center;
     font-size: .7rem;
+    border: none;
     border-radius: .25rem;
     -webkit-border-radius: .25rem;
     -moz-border-radius: .25rem;
@@ -53,6 +55,9 @@ section {
     -o-border-radius: .25rem;
     text-transform: capitalize;
     letter-spacing: 5px;
+    position: initial;
+    padding: 0;
+    margin: 1rem 1rem 1rem 1rem;
 }
 
 .alert-danger {
