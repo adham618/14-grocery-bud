@@ -9,7 +9,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title></title>
+  <title>Grocery Bud</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Icon -->
@@ -26,7 +26,20 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
   <section class="container">
-    <form class="grocery-form"></form>
+    <!-- form -->
+    <form class="grocery-form">
+      <p class="alert"></p>
+      <h2>grocery bud</h2>
+      <div class="form-control">
+        <input type="text" name="grocery" id="grocery" placeholder="e.g. eggs">
+        <button type="submit" class="submit-btn">submit</button>
+      </div>
+    </form>
+    <!-- list -->
+    <div class="grocery-container">
+      <div class="grocery-list"></div>
+      <button class="clear-btn">clear items</button>
+    </div>
   </section>
   <!-- Bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
