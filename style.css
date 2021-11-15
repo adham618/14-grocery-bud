@@ -1,0 +1,15 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/* variables */
+:root {
+    --main-color: #F1F5F8;
+    --Roboto-font: "Roboto",
+        sans-serif;
+}
+
+/* gobal */
+body {
+    font-family: var(--Roboto-font);
+    background-color: #F1F5F8;
+}
