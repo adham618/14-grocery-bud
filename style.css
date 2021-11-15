@@ -24,7 +24,7 @@ section {
     max-width: 35rem;
     width: 90vw;
     margin: 0 auto;
-    margin-top: 8rem;
+    margin-top: 4rem;
     border-radius: 5px;
     box-shadow: var(--light-shadow);
     transition: all .3s linear;
